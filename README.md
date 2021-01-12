@@ -11,7 +11,7 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |1.09%          |76.24%      |2.15%   |
     |Low Risk   |99.76%         |59.17%      |74.28%  |
-  - Imbalanced Classification Report: 
+  - Imbalanced Classification Report: </br>
     ![Oversampling](Results/Oversampling.png)
 - **Smote Oversampling**
   - Balanced Accuracy Score: 66.24%
@@ -21,7 +21,7 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |1.20%          |63.37%      |2.35%   |
     |Low Risk   |99.69%         |69.11%      |81.63%  |
-  - Imbalanced Classification Report: 
+  - Imbalanced Classification Report: </br>
     ![Smote](Results/SMOTE.png)
 - **Cluster Centroids Undersampling**
   - Balanced Accuracy Score: 54.70%
@@ -31,7 +31,7 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |0.68%          |68.32%      |1.35%   |
     |Low Risk   |99.55%         |41.08%      |58.16%  |
-  - Imbalanced Classification Report: 
+  - Imbalanced Classification Report: </br>
     ![Undersampling](Results/Undersampling.png)
 - **SMOTEEN Over and Under Sampling**
   - Balanced Accuracy Score: 64.47%
@@ -41,7 +41,7 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |0.98%          |72.28%      |1.92%   |
     |Low Risk   |99.71%         |56.67%      |72.27%  |
-  - Imbalanced Classification Report: 
+  - Imbalanced Classification Report: </br>
     ![SMOTEEN](Results/SMOTEEN.png)
 - **Balanced Random Forest Classifier**
   - Balanced Accuracy Score: 78.85%
@@ -51,7 +51,7 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |3.19%          |70.30%      |6.11%   |
     |Low Risk   |99.80%         |87.41%      |93.20%  |
-  - Imbalanced Classification Report: 
+  - Imbalanced Classification Report: </br>
     ![RandomForest](Results/RandomForest.png)
 - **Easy Ensemble Adaboost Classifier**
   - Balanced Accuracy Score: 93.17%
@@ -61,7 +61,7 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |8.64%          |92.08%      |15.80%  |
     |Low Risk   |99.95%         |94.25%      |97.02%  |
-  - Imbalanced Classification Report: 
+  - Imbalanced Classification Report: </br>
     ![EasyEnsemble](Results/EasyEnsemble.png)
 
 ### Summary

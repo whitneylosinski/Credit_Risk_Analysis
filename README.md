@@ -1,6 +1,10 @@
 # Credit Risk Analysis
 The purpose of this analysis was to use and compare different machine learning methods to predict credit risk based on different account criteria and determine the best method.
 
+### Resources
+Data: LoanStats_2019Q1.csv
+Software: Python 3.7, Numpy, SciPy, Scikit-learn, Jupyter Notebook
+
 ### Results
 Below are the results of each machine learning method used for predicting credit risk from the dataset.  The balanced accuracy score was calculated using the balanced_accuracy_score method from sklearn.metrics.  The precision, recall and F1 scores were calculated from the confusion matrix and the imbalanced classification report is provided to verify the results.
 - **Naive Random Oversampling**

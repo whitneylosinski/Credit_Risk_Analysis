@@ -2,7 +2,7 @@
 The purpose of this analysis was to use and compare different machine learning methods to predict credit risk based on different account criteria and determine the best method.
 
 ### Resources
-Data: LoanStats_2019Q1.csv
+Data: LoanStats_2019Q1.csv </br>
 Software: Python 3.7, Numpy, SciPy, Scikit-learn, Jupyter Notebook
 
 ### Results

@@ -11,7 +11,8 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |1.09%          |76.24%      |2.15%   |
     |Low Risk   |99.76%         |59.17%      |74.28%  |
-  - Imbalanced Classification Report: ![Oversampling](Results/Oversampling.png)
+  - Imbalanced Classification Report: 
+    ![Oversampling](Results/Oversampling.png)
 - **Smote Oversampling**
   - Balanced Accuracy Score: 66.24%
   - Confusion Matrix: ![SMOTE_Matrix](Results/SMOTE_Matrix.png)
@@ -20,7 +21,8 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |1.20%          |63.37%      |2.35%   |
     |Low Risk   |99.69%         |69.11%      |81.63%  |
-  - Imbalanced Classification Report: ![Smote](Results/SMOTE.png)
+  - Imbalanced Classification Report: 
+    ![Smote](Results/SMOTE.png)
 - **Cluster Centroids Undersampling**
   - Balanced Accuracy Score: 54.70%
   - Confusion Matrix: ![Undersampling_Matrix](Results/Undersampling_Matrix.png)
@@ -29,7 +31,8 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |0.68%          |68.32%      |1.35%   |
     |Low Risk   |99.55%         |41.08%      |58.16%  |
-  - Imbalanced Classification Report: ![Undersampling](Results/Undersampling.png)
+  - Imbalanced Classification Report: 
+    ![Undersampling](Results/Undersampling.png)
 - **SMOTEEN Over and Under Sampling**
   - Balanced Accuracy Score: 64.47%
   - Confusion Matrix: ![SMOTEEN_Matrix](Results/SMOTEEN_Matrix.png)
@@ -38,7 +41,8 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |0.98%          |72.28%      |1.92%   |
     |Low Risk   |99.71%         |56.67%      |72.27%  |
-  - Imbalanced Classification Report: ![SMOTEEN](Results/SMOTEEN.png)
+  - Imbalanced Classification Report: 
+    ![SMOTEEN](Results/SMOTEEN.png)
 - **Balanced Random Forest Classifier**
   - Balanced Accuracy Score: 78.85%
   - Confusion Matrix: ![RandomForest_Matrix](Results/RandomForest_Matrix.png)
@@ -47,7 +51,8 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |3.19%          |70.30%      |6.11%   |
     |Low Risk   |99.80%         |87.41%      |93.20%  |
-  - Imbalanced Classification Report: ![RandomForest](Results/RandomForest.png)
+  - Imbalanced Classification Report: 
+    ![RandomForest](Results/RandomForest.png)
 - **Easy Ensemble Adaboost Classifier**
   - Balanced Accuracy Score: 93.17%
   - Confusion Matrix: ![EasyEnsemble_Matrix](Results/EasyEnsemble_Matrix.png)
@@ -56,7 +61,8 @@ Below are the results of each machine learning method used for predicting credit
     |:---:      |:---:          |:---:       |:---:   |
     |High Risk  |8.64%          |92.08%      |15.80%  |
     |Low Risk   |99.95%         |94.25%      |97.02%  |
-  - Imbalanced Classification Report: ![EasyEnsemble](Results/EasyEnsemble.png)
+  - Imbalanced Classification Report: 
+    ![EasyEnsemble](Results/EasyEnsemble.png)
 
 ### Summary
 The accuracy score is a quick indicator of how accurate each of the models was at predicting the loan status.  The results showed that only the Balanced Random Forest Classifier and the Easy Ensemble Adaboost Classifier had accuracy scores above 70%, with scores of 78.85% and 93.17% respectively.  If we only look at the accuracy score, it appears that the Easy Ensemble Adaboost Classifier is the best model for predicting loan status.  However, it is also important to look at the precision and recall scores of the model as well.

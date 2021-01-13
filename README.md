@@ -3,7 +3,7 @@ The purpose of this analysis was to use and compare different machine learning m
 
 ### Resources
 Data: LoanStats_2019Q1.csv </br>
-Software: Python 3.7, Numpy, SciPy, Scikit-learn, Jupyter Notebook
+Software: Python 3.7, Numpy 1.17.0, SciPy 1.5.2, Scikit-learn 0.23.2, Jupyter 1.0.0
 
 ### Results
 Below are the results of each machine learning method used for predicting credit risk from the dataset.  The balanced accuracy score was calculated using the balanced_accuracy_score method from sklearn.metrics.  The precision, recall and F1 scores were calculated from the confusion matrix and the imbalanced classification report is provided to verify the results.
